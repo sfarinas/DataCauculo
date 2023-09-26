@@ -1,0 +1,21 @@
+package udemy.classe.Datas;
+
+public class Data {
+    int dia, diaAtual;
+    int mes, mesAtual;
+    int ano, anoAtual;
+    int niver;
+
+    String nome;
+
+    Data(){
+
+    }
+    int calculo(int diaExato, int mesEaxto, int anoExato ){
+        diaExato = diaAtual - niver;
+        mesEaxto = mesAtual - niver;
+        anoExato = anoAtual - niver;
+        return calculo(diaExato, mesEaxto, anoExato);
+    }
+
+}
